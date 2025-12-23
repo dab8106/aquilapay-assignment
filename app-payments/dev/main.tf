@@ -4,7 +4,7 @@ provider "google" {
 }
 
 module "network" {
-  source      = "../../../modules/network"
+  source      = "../../modules/network"
   vpc_name    = var.vpc_name
   subnet_name = var.subnet_name
   cidr        = var.cidr
