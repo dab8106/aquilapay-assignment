@@ -1,6 +1,1 @@
-variable "project_id" {}
-variable "region" {}
-variable "vpc_name" {}
-variable "subnet_name" {}
-variable "cidr" {}
-variable "GCP_KEY_BASE64" {}
+variable "vpc_cidr" {}

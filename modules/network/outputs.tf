@@ -1,3 +1,3 @@
-output "network_name" {
-  value = google_compute_network.vpc.name
+output "vpc_id" {
+  value = aws_vpc.this.id
 }

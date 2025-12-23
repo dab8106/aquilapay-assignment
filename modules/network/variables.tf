@@ -1,5 +1,2 @@
-variable "vpc_name" {}
-variable "subnet_name" {}
-variable "cidr" {}
-variable "region" {}
-variable "GCP_KEY_BASE64" {}
+variable "name" {}
+variable "vpc_cidr" {}

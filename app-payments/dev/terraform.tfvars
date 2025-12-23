@@ -1,4 +1,1 @@
-region      = "us-central1"
-vpc_name    = "payments-dev-vpc"
-subnet_name = "payments-dev-subnet"
-cidr        = "10.21.0.0/24"
+vpc_cidr = "10.10.0.0/16"
