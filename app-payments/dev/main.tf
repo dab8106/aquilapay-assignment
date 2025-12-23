@@ -1,6 +1,7 @@
 provider "google" {
   project     = var.project_id
   region      = var.region
+  credentials = base64decode(var.GCP_KEY_BASE64)
 }
 
 module "network" {
