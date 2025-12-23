@@ -3,7 +3,7 @@ terraform {
     organization = "aquilapay-org"
 
     workspaces {
-      name = "app1-dev"
+      name = "app-team-a-dev"
     }
   }
 

@@ -1,7 +1,9 @@
 provider "aws" {}
 
-module "network" {
-  source   = "../../modules/network"
-  name     = "app1-dev-vpc"
-  vpc_cidr = var.vpc_cidr
+module "vpc" {
+  source              = "../../modules/vpc"
+  name                = "app-team-a-dev"
+  vpc_cidr            = var.vpc_cidr
+  public_subnet_cidr  = var.public_subnet_cidr
+  az                  = var.az
 }
